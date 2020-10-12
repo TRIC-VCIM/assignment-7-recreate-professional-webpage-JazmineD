@@ -1,0 +1,349 @@
+img{
+  width: 100%;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin:o;
+  padding: 0;
+}
+
+button{
+  border: 2px solid black;
+  border-radius: 15px;
+  background: none;
+  padding: 5px;
+}
+
+button a{
+  text-decoration: none;
+  color: black;
+}
+
+.top{
+  background-color: white;
+}
+
+.nav-1{
+  border: .25px solid;
+  padding: 0px 10px;
+  
+}
+.nav-1 a{
+  color: black;
+  float: right;
+  text-decoration: none;
+  padding: 8px 10px;
+}
+
+h1{
+  font-family: 'Gothic A1', sans-serif;
+  color: red;
+  font-size: 45px;
+  letter-spacing: 3px;
+}
+
+h2{
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 35px;
+  font-weight: 200;
+
+}
+
+h3{
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+h4{
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+P{
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+a{
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+.nav-2{
+  border: .25px solid;
+  padding: 50px 10px;
+}
+
+.nav-2 ul{
+  background-color: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-2 li{
+  display: inline-block;
+}
+
+.nav-2 a{
+ color: black;
+ text-decoration: none;
+ width: 110px;
+ display: inline-block;
+ padding: 5px;
+
+}
+
+.icons li{
+float: right;
+}
+
+.icons a{
+width: 40px;
+padding: 1px;
+}
+.hero{
+  background-color: white; 
+  text-align: center;
+  padding: 60px;
+}
+
+.hero img{
+  margin: 50px 0px 50px 0px;
+}
+
+.products{
+  background-color: red;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  padding: 80px;
+}
+
+.products a{
+  text-decoration: none;
+  color: white;
+}
+
+.products h2{
+grid-column: 1/4;
+grid-row: 1/2;
+}
+
+.on-sale{
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding: 60px;
+}
+
+.on-sale a{
+  text-decoration: none;
+  color: black;
+}
+
+.on-sale button{
+  float: right;
+}
+
+.new-season{
+  background-color: white;
+  padding: 80px;
+}
+
+.new-season ul{
+  /*background-color: white;*/
+  padding: 0;
+  margin: 0;
+}
+
+.new-season li{
+  display: inline-block;
+}
+
+.new-season a{
+  text-decoration: none;
+  color: black;
+  width: 150px;
+  float: left;
+  display: inline-block;
+  padding: 10px 15px 10px 35px;
+}
+
+.favorites{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: white;
+  padding: 80px;
+}
+
+.favorites h2{
+  grid-column: 1/5;
+  grid-row: 1/2;
+}
+/*.favorites img {
+  max-width: 100%;
+}*/
+
+.redesign{
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 80px;
+}
+
+.redesign a{
+  text-decoration: none;
+  color: black;
+}
+
+.redesign button{
+  float: right;
+}
+
+.good-design{
+  background-color: rgba(11, 43, 7, 0.747);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  color: white;
+  text-align: left;
+  padding: 90px;
+}
+
+.good-design a{
+  color: white;
+}
+
+.good-design button{
+  border: 2px solid white;
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.good-design img{
+  float: right;
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
+
+.good-design p{
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.finance{
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+
+.finance a{
+  text-decoration: none;
+  color: white;
+}
+
+.dwr{
+ background-color: white; 
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+ grid-template-rows:1fr 1fr 1fr;
+ text-align: right;
+ padding: 80px;
+}
+
+.dwr img{
+  grid-column: 1/3;
+  grid-row: 1/3;
+  margin: -10px;
+}
+
+.dwr h2{
+grid-column: 3/4;
+grid-row: 1/3;
+}
+
+.dwr button{
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+.bottom{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 80px;
+}
+
+.bottom li{
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.nav-4 a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-4 li{
+  padding: 10px 10px;
+}
+
+.nav-5 a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-5 li{
+  text-align: left;
+  padding: 10px 10px;
+}
+
+.email{
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
+.email a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-6 a{
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+  padding: 8px 10px;
+}
+
+.nav-6 li{
+  display: inline-block;
+
+}
+
+.social-media li{
+  display: inline-block;
+    
+}
+
+.social-media a{
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+}
+
